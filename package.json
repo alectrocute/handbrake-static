@@ -1,6 +1,6 @@
 {
   "name": "handbrake-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "provide static binaries for HandBrake in an Electron app",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "windows"
   ],
   "author": "Alec Armbruster <alectrocute+npm@gmail.com>",
-  "license": "BSD-3-Clause",
+  "license": "GPL-3.0",
   "dependencies": {},
   "devDependencies": {
     "tape": "~2.3.2"
