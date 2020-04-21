@@ -30,7 +30,7 @@ Don't forget to expose the binaries in your production build! Use electron-build
 }
 ```
 
-A more general example of using the HandBrake CLI binary in your project (which isn't the scope of this package) -
+A more general example of using the HandBrake CLI binary in your project (which isn't the scope of this package 🤷‍♂️) -
 
 ```js
 const handbrakePath = require("handbrake-static").path;
