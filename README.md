@@ -1,5 +1,8 @@
 # 🍹handbrake-static
 
+[![npm version](https://badge.fury.io/js/handbrake-static.svg)](https://badge.fury.io/js/handbrake-static)
+[![Issues](http://img.shields.io/github/issues/alectrocute/handbrake-static.svg)]( https://github.com/alectrocute/handbrake-static/issues)
+
 handbrake-static provides cross-platform [HandBrake CLI](https://handbrake.fr/) binaries in your Electron application.
 
 ## Installation
