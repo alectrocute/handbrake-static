@@ -12,13 +12,13 @@
     "url": "https://github.com/alectrocute/handbrake-static"
   },
   "keywords": [
-    "ffmpeg",
+    "electron",
+    "handbrake",
     "static",
     "library",
     "binary",
     "binaries",
     "mac",
-    "linux",
     "windows"
   ],
   "author": "Alec Armbruster <alectrocute+npm@gmail.com>",
