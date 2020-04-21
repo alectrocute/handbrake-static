@@ -4,7 +4,8 @@
   "description": "provide static binaries for HandBrake in an Electron app",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/tape test/*.js"
+    "test": "node_modules/.bin/tape test/*.js",
+    "release": "npm publish --access public"
   },
   "repository": {
     "type": "git",
