@@ -1,14 +1,14 @@
 {
   "name": "handbrake-static",
   "version": "1.0.0",
-  "description": "Handbrake static binaries for Mac OSX and Linux and Windows",
+  "description": "provide static binaries for HandBrake in an Electron app",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SoFriendly/handbrake-static"
+    "url": "https://github.com/alectrocute/handbrake-static"
   },
   "keywords": [
     "ffmpeg",
@@ -20,7 +20,7 @@
     "linux",
     "windows"
   ],
-  "author": "Alec Armbruster <alec@yac.com>",
+  "author": "Alec Armbruster <alectrocute+npm@gmail.com>",
   "license": "BSD-3-Clause",
   "dependencies": {},
   "devDependencies": {
