@@ -5,7 +5,7 @@ handbrake-static provides cross-platform [HandBrake CLI](https://handbrake.fr/) 
 ## Installation
 
 ```sh
- npm i @alectrocute/handbrake-static --save
+ npm i handbrake-static --save
 ```
 
 ## Usage
