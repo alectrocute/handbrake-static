@@ -1,7 +1,7 @@
-var os = require("os");
-var path = require("path");
-var platform = os.platform();
-var arch = os.arch();
+const os = require("os");
+const path = require("path");
+const arch = os.arch();
+let platform = os.platform();
 
 if (platform == "darwin") {
   platform = "mac";
@@ -9,7 +9,7 @@ if (platform == "darwin") {
   platform = "win";
 }
 
-let file = platform == "mac" ? "HandBrakeCLI" : "HandBrakeCLI.exe";
+const file = platform == "mac" ? "HandBrakeCLI" : "HandBrakeCLI.exe";
 
 // linux coming soon
 if (platform !== "mac" && platform !== "win") {
