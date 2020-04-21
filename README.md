@@ -4,10 +4,8 @@ handbrake-static provides cross-platform [HandBrake CLI](https://handbrake.fr/) 
 
 ## Installation
 
-Include this repo in your package.json's dependencies:
-
-```json
- "handbrake-static": "https://github.com/alectrocute/handbrake-static.git"
+```sh
+ npm i @alectrocute/handbrake-static --save
 ```
 
 ## Usage
