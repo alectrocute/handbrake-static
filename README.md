@@ -11,11 +11,26 @@ handbrake-static provides cross-platform [HandBrake CLI](https://handbrake.fr/) 
 ## Usage
 
 ```js
+// points to app.asar.unpacked
 const handbrakePath = require("handbrake-static").path;
-console.log(handbrakePath);
+
+// points to node_modules
+const handbrakeDevPath = require("handbrake-static").devPath;
+
+console.log(handbrakePath, handbrakeDevPath);
 ```
 
-A more general example (which isn't the scope of this package) -
+Then, it's very important you expose the binaries via `extraFiles` in your electron-builder configuration, example:
+
+```json
+"extraFiles": {
+  "from": "node_modules/handbrake-static/bin/mac/x64/HandBrakeCLI",
+  "to":
+  "./resources/app.asar.unpacked/handbrake-static/bin/mac/x64/HandBrakeCLI",
+}
+```
+
+A more general example of using the HandBrake CLI binary in your project (which isn't the scope of this package) -
 
 ```js
 const handbrakePath = require("handbrake-static").path;

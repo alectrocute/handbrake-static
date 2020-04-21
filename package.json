@@ -1,6 +1,6 @@
 {
   "name": "handbrake-static",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "provide static binaries for HandBrake in an Electron app",
   "main": "index.js",
   "scripts": {
