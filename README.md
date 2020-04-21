@@ -20,7 +20,7 @@ const handbrakeDevPath = require("handbrake-static").devPath;
 console.log(handbrakePath, handbrakeDevPath);
 ```
 
-Then, it's very important you expose the binaries via `extraFiles` in your electron-builder configuration, example:
+Don't forget to expose the binaries in your production build! Use electron-builder's [extraFiles configuration attribute](https://www.electron.build/configuration/contents).
 
 ```json
 "extraFiles": {
